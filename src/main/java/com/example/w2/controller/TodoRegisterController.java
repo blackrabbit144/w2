@@ -43,7 +43,7 @@ public class TodoRegisterController extends HttpServlet {
             resp.sendRedirect("/login");
             return;
         }//ログイン済みでない場合も /login へリダイレクト
-        //666666666666666666666
+        //7777777777777
         //ログイン済みなら JSP へフォワード
         req.getRequestDispatcher("/WEB-INF/todo/register.jsp").forward(req, resp);
     }
